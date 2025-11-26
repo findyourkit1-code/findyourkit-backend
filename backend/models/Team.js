@@ -1,0 +1,1 @@
+import mongoose from 'mongoose'; const TeamSchema=new mongoose.Schema({ name:String, sport:String, state:String, zip:String, location:{lat:Number,lng:Number}, jerseys:[{name:String, shopUrl:String}]}); export default mongoose.model('Team',TeamSchema);

@@ -1,0 +1,1 @@
+import express from 'express'; import Team from '../models/Team.js'; const router=express.Router(); router.get('/:id',async(req,res)=>{ const team=await Team.findById(req.params.id); res.json(team);}); export default router;
