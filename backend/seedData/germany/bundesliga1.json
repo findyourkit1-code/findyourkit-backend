@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FC Bayern M\u00fcnchen",
+    "country": "Germany",
+    "league": "bundesliga1",
+    "level": 1
+  },
+  {
+    "name": "Borussia Dortmund",
+    "country": "Germany",
+    "league": "bundesliga1",
+    "level": 1
+  },
+  {
+    "name": "RB Leipzig",
+    "country": "Germany",
+    "league": "bundesliga1",
+    "level": 1
+  },
+  {
+    "name": "Bayer Leverkusen",
+    "country": "Germany",
+    "league": "bundesliga1",
+    "level": 1
+  }
+]

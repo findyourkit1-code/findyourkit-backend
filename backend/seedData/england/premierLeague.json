@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Manchester City",
+    "country": "England",
+    "league": "premierLeague",
+    "level": 1
+  },
+  {
+    "name": "Arsenal",
+    "country": "England",
+    "league": "premierLeague",
+    "level": 1
+  },
+  {
+    "name": "Liverpool",
+    "country": "England",
+    "league": "premierLeague",
+    "level": 1
+  },
+  {
+    "name": "Chelsea",
+    "country": "England",
+    "league": "premierLeague",
+    "level": 1
+  }
+]

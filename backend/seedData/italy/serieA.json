@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Inter",
+    "country": "Italy",
+    "league": "serieA",
+    "level": 1
+  },
+  {
+    "name": "AC Milan",
+    "country": "Italy",
+    "league": "serieA",
+    "level": 1
+  },
+  {
+    "name": "Juventus",
+    "country": "Italy",
+    "league": "serieA",
+    "level": 1
+  },
+  {
+    "name": "Roma",
+    "country": "Italy",
+    "league": "serieA",
+    "level": 1
+  }
+]

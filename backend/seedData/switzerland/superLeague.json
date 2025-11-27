@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Young Boys",
+    "country": "Switzerland",
+    "league": "superLeague",
+    "level": 1
+  },
+  {
+    "name": "FC Basel",
+    "country": "Switzerland",
+    "league": "superLeague",
+    "level": 1
+  },
+  {
+    "name": "FC Z\u00fcrich",
+    "country": "Switzerland",
+    "league": "superLeague",
+    "level": 1
+  },
+  {
+    "name": "Lugano",
+    "country": "Switzerland",
+    "league": "superLeague",
+    "level": 1
+  }
+]

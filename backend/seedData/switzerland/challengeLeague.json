@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Aarau",
+    "country": "Switzerland",
+    "league": "challengeLeague",
+    "level": 2
+  },
+  {
+    "name": "Xamax",
+    "country": "Switzerland",
+    "league": "challengeLeague",
+    "level": 2
+  },
+  {
+    "name": "Vaduz",
+    "country": "Switzerland",
+    "league": "challengeLeague",
+    "level": 2
+  },
+  {
+    "name": "Wil",
+    "country": "Switzerland",
+    "league": "challengeLeague",
+    "level": 2
+  }
+]

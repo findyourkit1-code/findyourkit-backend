@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rosenborg",
+    "country": "Norway",
+    "league": "eliteserien",
+    "level": 1
+  },
+  {
+    "name": "Molde",
+    "country": "Norway",
+    "league": "eliteserien",
+    "level": 1
+  },
+  {
+    "name": "Viking",
+    "country": "Norway",
+    "league": "eliteserien",
+    "level": 1
+  },
+  {
+    "name": "Brann",
+    "country": "Norway",
+    "league": "eliteserien",
+    "level": 1
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Auxerre",
+    "country": "France",
+    "league": "ligue2",
+    "level": 2
+  },
+  {
+    "name": "Saint-\u00c9tienne",
+    "country": "France",
+    "league": "ligue2",
+    "level": 2
+  },
+  {
+    "name": "Caen",
+    "country": "France",
+    "league": "ligue2",
+    "level": 2
+  },
+  {
+    "name": "Amiens",
+    "country": "France",
+    "league": "ligue2",
+    "level": 2
+  }
+]
