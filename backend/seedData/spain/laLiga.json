@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Real Madrid",
+    "country": "Spain",
+    "league": "laLiga",
+    "level": 1
+  },
+  {
+    "name": "FC Barcelona",
+    "country": "Spain",
+    "league": "laLiga",
+    "level": 1
+  },
+  {
+    "name": "Atl\u00e9tico Madrid",
+    "country": "Spain",
+    "league": "laLiga",
+    "level": 1
+  },
+  {
+    "name": "Sevilla",
+    "country": "Spain",
+    "league": "laLiga",
+    "level": 1
+  }
+]

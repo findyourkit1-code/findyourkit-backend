@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Samsunspor",
+    "country": "Turkey",
+    "league": "firstLeague",
+    "level": 2
+  },
+  {
+    "name": "Rizespor",
+    "country": "Turkey",
+    "league": "firstLeague",
+    "level": 2
+  },
+  {
+    "name": "G\u00f6ztepe",
+    "country": "Turkey",
+    "league": "firstLeague",
+    "level": 2
+  },
+  {
+    "name": "Altay",
+    "country": "Turkey",
+    "league": "firstLeague",
+    "level": 2
+  }
+]

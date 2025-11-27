@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Hamburger SV",
+    "country": "Germany",
+    "league": "bundesliga2",
+    "level": 2
+  },
+  {
+    "name": "FC St. Pauli",
+    "country": "Germany",
+    "league": "bundesliga2",
+    "level": 2
+  },
+  {
+    "name": "Hertha BSC",
+    "country": "Germany",
+    "league": "bundesliga2",
+    "level": 2
+  },
+  {
+    "name": "Hannover 96",
+    "country": "Germany",
+    "league": "bundesliga2",
+    "level": 2
+  }
+]

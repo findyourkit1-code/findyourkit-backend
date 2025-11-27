@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Viborg",
+    "country": "Denmark",
+    "league": "firstDivision",
+    "level": 2
+  },
+  {
+    "name": "Hobro",
+    "country": "Denmark",
+    "league": "firstDivision",
+    "level": 2
+  },
+  {
+    "name": "Hvidovre",
+    "country": "Denmark",
+    "league": "firstDivision",
+    "level": 2
+  },
+  {
+    "name": "Fredericia",
+    "country": "Denmark",
+    "league": "firstDivision",
+    "level": 2
+  }
+]
