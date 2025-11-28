@@ -1,35 +1,63 @@
 import express from "express";
-import mongoose from "mongoose";
-import { germany_1 } from "../seedData/germany_1.js";
-import { germany_2 } from "../seedData/germany_2.js";
-import { germany_3 } from "../seedData/germany_3.js";
-import { england_1 } from "../seedData/england_1.js";
-import { england_2 } from "../seedData/england_2.js";
-import { england_3 } from "../seedData/england_3.js";
-import { national_teams } from "../seedData/national_teams.js";
-
 import Team from "../models/Team.js";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const router = express.Router();
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Helper to load JSON file
+function loadJSON(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
 router.get("/", async (req, res) => {
   try {
-    const teams = [
-      ...germany_1,
-      ...germany_2,
-      ...germany_3,
-      ...england_1,
-      ...england_2,
-      ...england_3,
-      ...national_teams
-    ];
+    console.log("🔄 Seeding database...");
 
+    // Delete existing teams
     await Team.deleteMany({});
-    const result = await Team.insertMany(teams);
+    console.log("🗑️ Deleted old teams.");
 
-    res.json({ status: "ok", imported: result.length });
+    const seedRoot = path.join(__dirname, "..", "seedData");
+    const countries = fs.readdirSync(seedRoot);
+
+    let total = 0;
+
+    for (const country of countries) {
+      const countryPath = path.join(seedRoot, country);
+
+      // Skip non-directories
+      if (!fs.lstatSync(countryPath).isDirectory()) continue;
+
+      const leagueFiles = fs.readdirSync(countryPath);
+
+      for (const leagueFile of leagueFiles) {
+        const fullPath = path.join(countryPath, leagueFile);
+
+        if (!leagueFile.endsWith(".json")) continue;
+
+        const data = loadJSON(fullPath);
+
+        await Team.insertMany(data);
+        total += data.length;
+
+        console.log(`✔ Imported ${data.length} teams from ${country}/${leagueFile}`);
+      }
+    }
+
+    res.json({
+      status: "success",
+      total,
+      message: `Imported ${total} teams successfully`
+    });
+
   } catch (err) {
-    res.status(500).json({ error: err.toString() });
+    console.error("❌ Seed error:", err);
+    res.status(500).json({ error: err.message });
   }
 });
 
