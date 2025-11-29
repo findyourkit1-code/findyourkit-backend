@@ -1,5 +1,5 @@
 import express from "express";
-import Team from "../models/Team.js";
+import Team from "../models/team.js";
 
 const router = express.Router();
 
