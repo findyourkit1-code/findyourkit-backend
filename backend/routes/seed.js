@@ -1,5 +1,5 @@
 import express from "express";
-import Team from "../models/Team.js";
+import Team from "../models/team.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
